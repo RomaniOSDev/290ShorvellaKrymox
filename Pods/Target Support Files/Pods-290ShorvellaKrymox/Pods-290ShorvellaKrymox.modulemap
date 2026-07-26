@@ -1,0 +1,6 @@
+framework module Pods_290ShorvellaKrymox {
+  umbrella header "Pods-290ShorvellaKrymox-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00683874CF02F8215E0626B0 /* Utilities/ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF702AFB13338FF83267A182 /* Utilities/ShakeEffect.swift */; };
+		009A55FE5F0DE89D0BFD9EB5 /* ViewModels/AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DDDB0762E1B6F5A82A4C12 /* ViewModels/AppDataStore.swift */; };
+		0F891688DB3377B3A51DE920 /* Views/Onboarding/OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF7393EAB7D35F1826DD6D2 /* Views/Onboarding/OnboardingView.swift */; };
+		20C12F127A0B17947F20BE3A /* Utilities/ScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C60C81C8DB0B5878850FE6 /* Utilities/ScreenBackground.swift */; };
+		4248300097FE76B1F2CEFCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8945B71BA1B0191A8026C8 /* Assets.xcassets */; };
+		56F14A7283E1FDA649EC9EA6 /* Views/Features/MindfulBreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80253ADC407AA059516CD4C9 /* Views/Features/MindfulBreathingView.swift */; };
+		5853B0C024489D1607CADD8F /* Views/Achievements/AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4512AC090069BA4CCF051253 /* Views/Achievements/AchievementsView.swift */; };
+		62ECD62070B1190FCAED265C /* Models/Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6858DD2CA4CA93473F4F3135 /* Models/Achievement.swift */; };
+		6475E36877640491758E3F04 /* Models/RelaxationEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D7D5D15F3F7777C29890BE /* Models/RelaxationEntry.swift */; };
+		6822872A11B225CE9C18BEF7 /* Resources/privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 61C547082C611C3726037BE9 /* Resources/privacy_policy.md */; };
+		7D6A4874C4DC72F57F4A4F7E /* Views/Main/MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E6CF928432CB3ABBE7021 /* Views/Main/MainTabView.swift */; };
+		879B5B1A5DDE473632C117D4 /* Views/Settings/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7609059CFEBD55D584EE3578 /* Views/Settings/SettingsView.swift */; };
+		91DE7B1A75FAE77279766376 /* Utilities/DesignComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90E17DCFE1D76FD026009F9 /* Utilities/DesignComponents.swift */; };
+		924A0C233915F5B2941A5AAD /* Services/AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A15AF73D83CB0E564147841 /* Services/AppLinks.swift */; };
+		92E61DB23CB8382C8AA26BBC /* Models/MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D988CC800925B8A1674D0458 /* Models/MoodEntry.swift */; };
+		9761E66417422FB3695F2699 /* Views/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102ED98FAA65611E91A311 /* Views/ContentView.swift */; };
+		9B57773A51E0011BE3AF9569 /* Base.lproj/LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F60EB2D872B12F4AA44E645 /* Base.lproj/LaunchScreen.storyboard */; };
+		A6D5DDB117299C3855ECE637 /* Views/Features/RelaxationInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E845B1B56279A7921E23647B /* Views/Features/RelaxationInsightsView.swift */; };
+		AC4EA4DB32A5F63591A18423 /* Application/AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69AB6A18C55D84D519666B /* Application/AppDelegate.swift */; };
+		B7E4C1A29F0D4E6B8C3A15D2 /* Views/Stats/StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B5C /* Views/Stats/StatsView.swift */; };
+		C1D2E3F405162738495A6B7C /* Models/AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E2F3A405162738495A6B7C /* Models/AppTheme.swift */; };
+		C2D3E4F5162738495A6B7C8D /* Services/ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3F4A5162738495A6B7C8D /* Services/ReminderService.swift */; };
+		C3D4E5F62738495A6B7C8D9E /* Views/Features/FocusTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4F5A62738495A6B7C8D9E /* Views/Features/FocusTimerView.swift */; };
+		C4D5E6F738495A6B7C8D9E0F /* Views/Features/WeeklyReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F6A738495A6B7C8D9E0F /* Views/Features/WeeklyReflectionView.swift */; };
+		DD82215EBC44B43A0772287A /* Services/HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCAEDC41FB90C07D22C2160 /* Services/HapticService.swift */; };
+		EC6B212DA2EC956A93C7AC0D /* Views/Features/MoodMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13F726F0FC98BFB78B0CAC /* Views/Features/MoodMomentView.swift */; };
+		F42B589D7776B48AE0539AC9 /* Application/SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713166B83D76C931012E3D06 /* Application/SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		009E6CF928432CB3ABBE7021 /* Views/Main/MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Main/MainTabView.swift; sourceTree = "<group>"; };
+		0A15AF73D83CB0E564147841 /* Services/AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AppLinks.swift; sourceTree = "<group>"; };
+		2C13F726F0FC98BFB78B0CAC /* Views/Features/MoodMomentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/MoodMomentView.swift; sourceTree = "<group>"; };
+		30DDDB0762E1B6F5A82A4C12 /* ViewModels/AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/AppDataStore.swift; sourceTree = "<group>"; };
+		3C102ED98FAA65611E91A311 /* Views/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ContentView.swift; sourceTree = "<group>"; };
+		3D8945B71BA1B0191A8026C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4512AC090069BA4CCF051253 /* Views/Achievements/AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Achievements/AchievementsView.swift; sourceTree = "<group>"; };
+		55D7D5D15F3F7777C29890BE /* Models/RelaxationEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RelaxationEntry.swift; sourceTree = "<group>"; };
+		61C547082C611C3726037BE9 /* Resources/privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Resources/privacy_policy.md; sourceTree = "<group>"; };
+		6858DD2CA4CA93473F4F3135 /* Models/Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Achievement.swift; sourceTree = "<group>"; };
+		713166B83D76C931012E3D06 /* Application/SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application/SceneDelegate.swift; sourceTree = "<group>"; };
+		7609059CFEBD55D584EE3578 /* Views/Settings/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		7C0FF5AF2D28808A9696EE87 /* 290ShorvellaKrymox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 290ShorvellaKrymox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F60EB2D872B12F4AA44E645 /* Base.lproj/LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80253ADC407AA059516CD4C9 /* Views/Features/MindfulBreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/MindfulBreathingView.swift; sourceTree = "<group>"; };
+		86C60C81C8DB0B5878850FE6 /* Utilities/ScreenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/ScreenBackground.swift; sourceTree = "<group>"; };
+		88EA09A719AB28F73F324305 /* Pods-290ShorvellaKrymox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-290ShorvellaKrymox.release.xcconfig"; path = "Target Support Files/Pods-290ShorvellaKrymox/Pods-290ShorvellaKrymox.release.xcconfig"; sourceTree = "<group>"; };
+		8F2F1860F5DA7F42DFA715AE /* Pods-290ShorvellaKrymox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-290ShorvellaKrymox.debug.xcconfig"; path = "Target Support Files/Pods-290ShorvellaKrymox/Pods-290ShorvellaKrymox.debug.xcconfig"; sourceTree = "<group>"; };
+		A1B2C3D4E5F60718293A4B5C /* Views/Stats/StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Stats/StatsView.swift; sourceTree = "<group>"; };
+		A1EE07522157F979BA8221AB /* Pods_290ShorvellaKrymox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_290ShorvellaKrymox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33E0A44850B4EFD3317E475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCAEDC41FB90C07D22C2160 /* Services/HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/HapticService.swift; sourceTree = "<group>"; };
+		CA69AB6A18C55D84D519666B /* Application/AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		CF702AFB13338FF83267A182 /* Utilities/ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/ShakeEffect.swift; sourceTree = "<group>"; };
+		D1E2F3A405162738495A6B7C /* Models/AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/AppTheme.swift; sourceTree = "<group>"; };
+		D2E3F4A5162738495A6B7C8D /* Services/ReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ReminderService.swift; sourceTree = "<group>"; };
+		D3E4F5A62738495A6B7C8D9E /* Views/Features/FocusTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/FocusTimerView.swift; sourceTree = "<group>"; };
+		D4E5F6A738495A6B7C8D9E0F /* Views/Features/WeeklyReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/WeeklyReflectionView.swift; sourceTree = "<group>"; };
+		D90E17DCFE1D76FD026009F9 /* Utilities/DesignComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/DesignComponents.swift; sourceTree = "<group>"; };
+		D988CC800925B8A1674D0458 /* Models/MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/MoodEntry.swift; sourceTree = "<group>"; };
+		E845B1B56279A7921E23647B /* Views/Features/RelaxationInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Features/RelaxationInsightsView.swift; sourceTree = "<group>"; };
+		FEF7393EAB7D35F1826DD6D2 /* Views/Onboarding/OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Onboarding/OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B006AA839E1E31603E118BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E45D45E916BA703F67F2A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1EE07522157F979BA8221AB /* Pods_290ShorvellaKrymox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B8889876C01DF803B34240C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C0FF5AF2D28808A9696EE87 /* 290ShorvellaKrymox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C393616693467A240940F3 = {
+			isa = PBXGroup;
+			children = (
+				D90B85B198C691AB9E80D180 /* 290ShorvellaKrymox */,
+				4B8889876C01DF803B34240C /* Products */,
+				8EB06242F46832402C6F82E1 /* Pods */,
+				05E45D45E916BA703F67F2A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EB06242F46832402C6F82E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F1860F5DA7F42DFA715AE /* Pods-290ShorvellaKrymox.debug.xcconfig */,
+				88EA09A719AB28F73F324305 /* Pods-290ShorvellaKrymox.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D90B85B198C691AB9E80D180 /* 290ShorvellaKrymox */ = {
+			isa = PBXGroup;
+			children = (
+				CA69AB6A18C55D84D519666B /* Application/AppDelegate.swift */,
+				713166B83D76C931012E3D06 /* Application/SceneDelegate.swift */,
+				3D8945B71BA1B0191A8026C8 /* Assets.xcassets */,
+				7F60EB2D872B12F4AA44E645 /* Base.lproj/LaunchScreen.storyboard */,
+				A33E0A44850B4EFD3317E475 /* Info.plist */,
+				6858DD2CA4CA93473F4F3135 /* Models/Achievement.swift */,
+				D988CC800925B8A1674D0458 /* Models/MoodEntry.swift */,
+				55D7D5D15F3F7777C29890BE /* Models/RelaxationEntry.swift */,
+				61C547082C611C3726037BE9 /* Resources/privacy_policy.md */,
+				0A15AF73D83CB0E564147841 /* Services/AppLinks.swift */,
+				ADCAEDC41FB90C07D22C2160 /* Services/HapticService.swift */,
+				D90E17DCFE1D76FD026009F9 /* Utilities/DesignComponents.swift */,
+				86C60C81C8DB0B5878850FE6 /* Utilities/ScreenBackground.swift */,
+				CF702AFB13338FF83267A182 /* Utilities/ShakeEffect.swift */,
+				30DDDB0762E1B6F5A82A4C12 /* ViewModels/AppDataStore.swift */,
+				4512AC090069BA4CCF051253 /* Views/Achievements/AchievementsView.swift */,
+				3C102ED98FAA65611E91A311 /* Views/ContentView.swift */,
+				80253ADC407AA059516CD4C9 /* Views/Features/MindfulBreathingView.swift */,
+				2C13F726F0FC98BFB78B0CAC /* Views/Features/MoodMomentView.swift */,
+				E845B1B56279A7921E23647B /* Views/Features/RelaxationInsightsView.swift */,
+				009E6CF928432CB3ABBE7021 /* Views/Main/MainTabView.swift */,
+				FEF7393EAB7D35F1826DD6D2 /* Views/Onboarding/OnboardingView.swift */,
+				7609059CFEBD55D584EE3578 /* Views/Settings/SettingsView.swift */,
+				A1B2C3D4E5F60718293A4B5C /* Views/Stats/StatsView.swift */,
+				D1E2F3A405162738495A6B7C /* Models/AppTheme.swift */,
+				D2E3F4A5162738495A6B7C8D /* Services/ReminderService.swift */,
+				D3E4F5A62738495A6B7C8D9E /* Views/Features/FocusTimerView.swift */,
+				D4E5F6A738495A6B7C8D9E0F /* Views/Features/WeeklyReflectionView.swift */,
+			);
+			path = 290ShorvellaKrymox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08D66F7D56C7304460760A74 /* 290ShorvellaKrymox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92990710A72C632A549F91A8 /* Build configuration list for PBXNativeTarget "290ShorvellaKrymox" */;
+			buildPhases = (
+				949C0234A12C08A5F9A0A7E0 /* [CP] Check Pods Manifest.lock */,
+				EC30EEF654399CB14E1F08D9 /* Sources */,
+				0B006AA839E1E31603E118BD /* Frameworks */,
+				7A6AB1CAEEA725730DB0BDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 290ShorvellaKrymox;
+			productName = 290ShorvellaKrymox;
+			productReference = 7C0FF5AF2D28808A9696EE87 /* 290ShorvellaKrymox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8305771A6649FE7783A1A6A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					08D66F7D56C7304460760A74 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D154B8CBF1B365441B101B5B /* Build configuration list for PBXProject "290ShorvellaKrymox" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58C393616693467A240940F3;
+			productRefGroup = 4B8889876C01DF803B34240C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08D66F7D56C7304460760A74 /* 290ShorvellaKrymox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A6AB1CAEEA725730DB0BDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4248300097FE76B1F2CEFCF5 /* Assets.xcassets in Resources */,
+				9B57773A51E0011BE3AF9569 /* Base.lproj/LaunchScreen.storyboard in Resources */,
+				6822872A11B225CE9C18BEF7 /* Resources/privacy_policy.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		949C0234A12C08A5F9A0A7E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-290ShorvellaKrymox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC30EEF654399CB14E1F08D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4EA4DB32A5F63591A18423 /* Application/AppDelegate.swift in Sources */,
+				F42B589D7776B48AE0539AC9 /* Application/SceneDelegate.swift in Sources */,
+				62ECD62070B1190FCAED265C /* Models/Achievement.swift in Sources */,
+				92E61DB23CB8382C8AA26BBC /* Models/MoodEntry.swift in Sources */,
+				6475E36877640491758E3F04 /* Models/RelaxationEntry.swift in Sources */,
+				924A0C233915F5B2941A5AAD /* Services/AppLinks.swift in Sources */,
+				DD82215EBC44B43A0772287A /* Services/HapticService.swift in Sources */,
+				91DE7B1A75FAE77279766376 /* Utilities/DesignComponents.swift in Sources */,
+				20C12F127A0B17947F20BE3A /* Utilities/ScreenBackground.swift in Sources */,
+				00683874CF02F8215E0626B0 /* Utilities/ShakeEffect.swift in Sources */,
+				009A55FE5F0DE89D0BFD9EB5 /* ViewModels/AppDataStore.swift in Sources */,
+				5853B0C024489D1607CADD8F /* Views/Achievements/AchievementsView.swift in Sources */,
+				9761E66417422FB3695F2699 /* Views/ContentView.swift in Sources */,
+				56F14A7283E1FDA649EC9EA6 /* Views/Features/MindfulBreathingView.swift in Sources */,
+				EC6B212DA2EC956A93C7AC0D /* Views/Features/MoodMomentView.swift in Sources */,
+				A6D5DDB117299C3855ECE637 /* Views/Features/RelaxationInsightsView.swift in Sources */,
+				7D6A4874C4DC72F57F4A4F7E /* Views/Main/MainTabView.swift in Sources */,
+				0F891688DB3377B3A51DE920 /* Views/Onboarding/OnboardingView.swift in Sources */,
+				879B5B1A5DDE473632C117D4 /* Views/Settings/SettingsView.swift in Sources */,
+				B7E4C1A29F0D4E6B8C3A15D2 /* Views/Stats/StatsView.swift in Sources */,
+				C1D2E3F405162738495A6B7C /* Models/AppTheme.swift in Sources */,
+				C2D3E4F5162738495A6B7C8D /* Services/ReminderService.swift in Sources */,
+				C3D4E5F62738495A6B7C8D9E /* Views/Features/FocusTimerView.swift in Sources */,
+				C4D5E6F738495A6B7C8D9E0F /* Views/Features/WeeklyReflectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		057C3B6FD06A75831535126E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		431949F0AF5CA682CA87D479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88EA09A719AB28F73F324305 /* Pods-290ShorvellaKrymox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 290ShorvellaKrymox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Shorvella Krymox";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.len.sh0rv5ll3krym0x;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C9518A1CBA565DAAD00EEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2F1860F5DA7F42DFA715AE /* Pods-290ShorvellaKrymox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = 290ShorvellaKrymox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Shorvella Krymox";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.len.sh0rv5ll3krym0x;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F4A58B19B7BC6DF2F31A0D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92990710A72C632A549F91A8 /* Build configuration list for PBXNativeTarget "290ShorvellaKrymox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9518A1CBA565DAAD00EEA9 /* Debug */,
+				431949F0AF5CA682CA87D479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D154B8CBF1B365441B101B5B /* Build configuration list for PBXProject "290ShorvellaKrymox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057C3B6FD06A75831535126E /* Debug */,
+				F4A58B19B7BC6DF2F31A0D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8305771A6649FE7783A1A6A5 /* Project object */;
+}
