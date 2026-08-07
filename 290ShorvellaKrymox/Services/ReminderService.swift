@@ -49,7 +49,7 @@ enum ReminderService {
         date.minute = minute
 
         let content = UNMutableNotificationContent()
-        content.title = "LifeEase"
+        content.title = "Shorvella Krymox"
         content.body = "Take a moment to log your mood."
         content.sound = HapticService.soundEnabled ? .default : nil
 
